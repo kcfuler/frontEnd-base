@@ -1,7 +1,12 @@
 "use strict";
 
 function strBuilder(str) {
-	return strBuilder;
+  return function next(v) {
+    if (typeof v == "string") {
+      return strBuilder(str + v); // like a logic chain , if condition is not compatible, pass it to next state.
+    }
+    return str;
+  };
 }
 
 var hello = strBuilder("Hello, ");
