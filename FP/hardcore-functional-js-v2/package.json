@@ -1,4 +1,5 @@
 {
+  "module": "module",
   "dependencies": {
     "ramda": "^0.26.1"
   }

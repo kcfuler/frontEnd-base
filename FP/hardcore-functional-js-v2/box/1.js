@@ -1,4 +1,4 @@
-const nextCharForNumberString = str => {
+const nextCharForNumberString = (str) => {
   const trimmed = str.trim();
   const number = parseInt(trimmed);
   const nextNumber = number + 1;
@@ -6,5 +6,4 @@ const nextCharForNumberString = str => {
 };
 
 const result = nextCharForNumberString("  64 ");
-
 console.log(result);
