@@ -1,9 +1,9 @@
-const Box = require("./box");
+import Box from "./box";
 
-const first = xs => xs[0];
+const first = (xs) => xs[0];
 
-const halfTheFirstLargeNumber = xs => {
-  const found = xs.filter(x => x >= 20);
+const halfTheFirstLargeNumber = (xs) => {
+  const found = xs.filter((x) => x >= 20);
   const answer = first(found) / 2;
   return `The answer is ${answer}`;
 };
