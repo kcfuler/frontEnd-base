@@ -1,5 +1,6 @@
 
 const N = 510;
+// @ts-ignore
 let g = new Array(N).fill(Infinity).map( () => new Array(N).fill(Infinity) );
 let st = new Array<boolean>(N);
 let d = new Array<number>(N);
