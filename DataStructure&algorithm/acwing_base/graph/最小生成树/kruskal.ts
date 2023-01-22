@@ -1,5 +1,6 @@
 const N = 100010, M = 200020;
 
+// @ts-ignore
 let edges = new Array<number[]>(N).fill([0, 0, 0]);
 let p = new Array(N);
 let n , m;
