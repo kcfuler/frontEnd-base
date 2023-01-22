@@ -19,12 +19,12 @@ int main()
 {
 
   int n;
-  scanf("%d", &n);
+  scanf_s("%d", &n);
 
   while (n--)
   {
     int a, b, x, y;
-    scanf("%d%d", &a, &b);
+    scanf_s("%d%d", &a, &b);
 
     exgcd(a, b, x, y);
 
